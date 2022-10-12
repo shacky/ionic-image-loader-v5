@@ -29,6 +29,6 @@
     "zone.js": "~0.9.1"
   },
   "peerDependencies": {
-    "@ionic-native/file": "^5.0.0"
+    "@awesome-cordova-plugins/file": "^5.0.0"
   }
 }
