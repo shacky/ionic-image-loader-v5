@@ -9,8 +9,8 @@ npm i --save ionic-image-loader-v5
 
 #### 2. Install Required Plugins
 ```
-npm i --save @ionic-native/ionic-webview
-npm i --save @ionic-native/file
+npm i --save @awesome-cordova-plugins/ionic-webview
+npm i --save @awesome-cordova-plugins/file
 ionic cordova plugin add cordova-plugin-file
 ```
 
@@ -19,7 +19,7 @@ ionic cordova plugin add cordova-plugin-file
 **Add `IonicImageLoaderModule` and `WebView` in your app's root module**
 ```typescript
 import { IonicImageLoaderModule } from 'ionic-image-loader-v5';
-import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { WebView } from '@awesome-cordova-plugins/ionic-webview/ngx';
 
 // import the module
 @NgModule({
